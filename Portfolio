@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nallala Sanjay | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #007acc, #005f99);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    nav a {
+      color: #ffffff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 1rem auto;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      color: #007acc;
+    }
+    h3 {
+      color: #005f99;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .projects li {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-left: 5px solid #007acc;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+    .contact p {
+      margin: 0.5rem 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007acc;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #005f99;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nallala Sanjay</h1>
+    <p>Software Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Science Engineering student (graduating in 2026) with a strong dedication to software development, problem-solving, and database management. I’m proficient in Python and Java, and passionate about contributing to meaningful tech projects.</p>
+    <h3>Skills</h3>
+    <ul>
+      <li>Programming Languages: Java, Python</li>
+      <li>Web Development: HTML, CSS</li>
+      <li>Database: SQL</li>
+      <li>Languages: Telugu, English, Tamil, Hindi</li>
+      <li>Soft Skills: Focused Listening, Team Player, Time Management, Adaptability</li>
+    </ul>
+    <h3>Education</h3>
+    <ul>
+      <li>B.E in Computer Science Engineering, Saveetha School of Engineering (2026)</li>
+      <li>Intermediate – Pragati Junior College (93.2%)</li>
+      <li>SSC – Bhashyam High School (88.8%)</li>
+    </ul>
+    <a href="SANJAY CV.docx.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>Smart Window Automation System</h3>
+        <p>Designed and built an automated smart window system using Arduino, enabling automatic opening/closing based on temperature and light intensity.</p>
+      </li>
+      <li>
+        <h3>Cybersecurity Intrusion Detection</h3>
+        <p>Implemented a basic intrusion detection system (IDS) that monitors network traffic for suspicious activities.</p>
+      </li>
+      <li>
+        <h3>Bluetooth-based Light Intensity Control</h3>
+        <p>Developed a Bluetooth-enabled Arduino system for wireless light intensity control via mobile device using HC05 module.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sanjaynallala112@gmail.com">sanjaynallala112@gmail.com</a></p>
+    <p>Phone: +91 8555091016</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sanjay-n-9b0824261" target="_blank">sanjay-n-9b0824261</a></p>
+    <p>GitHub: <a href="https://github.com/sanjaynallala" target="_blank">sanjaynallala</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nallala Sanjay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
